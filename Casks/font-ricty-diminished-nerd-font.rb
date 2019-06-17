@@ -2,7 +2,7 @@ cask 'font-ricty-diminished-nerd-font' do
   version '1.0'
   sha256 '79d1f17488ae6a90b6efae2669f4a406032737d00ec6665439baf957000cf61e'
 
-  url "https://github.com/iwai/nerd-fonts/releases/download/#{version}/ricty_diminished_nerd_font-#{version}.tar.gz"
+  url "https://github.com/iwai/nerd-fonts/releases/download/#{version}/ricty_diminished_nerd_font-#{version}.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
   name 'Ricty Diminished Nerd Font'
   homepage 'https://github.com/iwai/nerd-fonts'
 
